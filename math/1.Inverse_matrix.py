@@ -14,3 +14,5 @@ if Have_inverse(arr) == 0:
     print("Matrix arr don\'t have inverse matrix (sigular or degenerate)!")
 else:
     print("Inverse matrix of matrix arr: \n", np.linalg.inv(arr))
+
+print("Pseudo Inverse: \n", np.linalg.pinv(arr))
